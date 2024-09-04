@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: open-sans,Arial,sans-serif;
+}
+
+body{
+    background-color: lightblue;
+}
+
 .container{
     max-width: 640px;
-    
+    padding: 12px;
+    margin: 20px auto;
+    border-radius: 16px;
+    background-color: aliceblue;
+}
+
+.searchbar{
+    border-radius: 4px;
+    border: solid 1px;
+    padding: 4px;
+}
+
+.search-btn{
+    border-radius: 8px;
+    border: solid 1px;
+    padding: 4px;
 }
